@@ -28,6 +28,11 @@ android {
     }
 }
 
+java {
+    sourceCompatibility = JavaVersion.VERSION_11 // Set your desired Java version
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
 dependencies {
     implementation 'androidx.annotation:annotation:1.7.0'
     testImplementation 'junit:junit:4.13.2'
